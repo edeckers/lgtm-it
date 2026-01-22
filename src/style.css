@@ -29,12 +29,11 @@ a {
   background-size: 0 2px;
   background-position: 0 100%;
   background-repeat: no-repeat;
-  transition: background-size 0.3s ease, color 0.2s ease;
+  transition: background-size 0.3s ease;
   display: inline;
 }
 
 a:hover {
-  color: #7dcfff;
   background-size: 100% 2px;
 }
 
