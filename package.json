@@ -1,0 +1,26 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build && (tailwindcss -i src/style.css -o dist/style.css --watch & serve dist -p 5173)",
+    "build": "mkdir -p dist && cp src/index.html dist/ && tailwindcss -i src/style.css -o dist/style.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:edeckers/lgtm-it.git"
+  },
+  "keywords": [],
+  "author": "Ely Deckers <bad.plate1109@fastmail.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/edeckers/lgtm-it/issues"
+  },
+  "homepage": "https://github.com/edeckers/lgtm-it#readme",
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4",
+    "serve": "^14",
+    "tailwindcss": "^4"
+  }
+}
