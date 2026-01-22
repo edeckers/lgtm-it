@@ -41,8 +41,9 @@ a:hover {
 .project-link {
   display: block;
   padding: 1.5rem 0;
-  border-bottom: 1px solid #3e3e42;
   transition: padding-left 0.2s;
+  border: none;
+  background: none;
 }
 
 .project-link:hover {
