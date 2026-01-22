@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "npm run build && (tailwindcss -i src/style.css -o dist/style.css --watch & serve dist -p 5173)",
-    "build": "mkdir -p dist && cp src/index.html dist/ && tailwindcss -i src/style.css -o dist/style.css --minify"
+    "build": "mkdir -p dist && cp src/index.html dist/ && cp src/media/favicon.ico dist/ && tailwindcss -i src/style.css -o dist/style.css --minify"
   },
   "repository": {
     "type": "git",
