@@ -8,8 +8,8 @@
   font-family: var(--font-family);
   line-height: 1.6;
   font-weight: 400;
-  color: #cccccc;
-  background-color: #1e1e1e;
+  color: #c0caf5;
+  background-color: #1a1b26;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -22,10 +22,10 @@ body {
 }
 
 a {
-  color: #4fc3f7;
+  color: #7aa2f7;
   text-decoration: none;
-  border-bottom: 1px solid #4fc3f7;
-  background-image: linear-gradient(to right, #4fc3f7 0%, #4fc3f7 100%);
+  border-bottom: 1px solid #7aa2f7;
+  background-image: linear-gradient(to right, #7aa2f7 0%, #7aa2f7 100%);
   background-size: 0 2px;
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@ a {
 }
 
 a:hover {
-  color: #81d4fa;
+  color: #7dcfff;
   background-size: 100% 2px;
 }
 
