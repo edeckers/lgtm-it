@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-/* Importing the cookie consent CSS from node_modules, instead
-   of referencing directly from .html bc it doesn't resolve at
-   dev time then */
-@import "../node_modules/vanilla-cookieconsent/dist/cookieconsent.css";
-
 @theme {
   --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }

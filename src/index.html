@@ -34,8 +34,21 @@
 
     <link rel="stylesheet" href="style.css" />
   
-    <script type="module" src="/js/analytics/matomo.js"></script>
-    <script type="module" src="/js/analytics/cookie-bar.js"></script>
+    <script>
+      var _paq = window._paq = window._paq || [];
+      _paq.push(["setDoNotTrack", false]);
+      _paq.push(["disableCookies"]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://lgtm.matomo.cloud/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '3']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://cdn.matomo.cloud/lgtm.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img referrerpolicy="no-referrer-when-downgrade" src="https://lgtm.matomo.cloud/matomo.php?idsite=3&amp;rec=1" style="border:0;" alt="" /></p></noscript>
   </head>
   <body class="bg-[#1e1e1e] text-[#cccccc]">
     <div class="max-w-2xl mx-auto px-6 py-16">
